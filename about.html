@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Creative Stack - About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">The Creative Stack</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html" class="active">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="search-container">
+                <form action="/search" method="get">
+                    <input type="text" placeholder="Search..." name="search" aria-label="Search" />
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <h1>About The Creative Stack</h1>
+            
+            <div class="about-content">
+                <img src="profile1.png" alt="Blog Author" class="author-image">
+                
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>
+                        Welcome to The Creative Stack! This platform was created with a simple mission: to share knowledge, 
+                        inspire creativity, and build a community of lifelong learners. Whether you're interested 
+                        in technology, writing, photography, or healthy living, we've got something for everyone.
+                    </p>
+
+                    <h2>Our Mission</h2>
+                    <p>
+                        We believe in the power of sharing knowledge and experiences. Our goal is to create 
+                        high-quality, accessible content that helps our readers learn, grow, and achieve their goals.
+                    </p>
+
+                    <h2>What We Cover</h2>
+                    <div class="topics-grid">
+                        <div class="topic-card">
+                            <i class="fas fa-code"></i>
+                            <h3>Web Development</h3>
+                            <p>Tutorials and guides for aspiring developers</p>
+                        </div>
+                        <div class="topic-card">
+                            <i class="fas fa-pen-fancy"></i>
+                            <h3>Creative Writing</h3>
+                            <p>Tips and techniques for better storytelling</p>
+                        </div>
+                        <div class="topic-card">
+                            <i class="fas fa-camera"></i>
+                            <h3>Photography</h3>
+                            <p>Capture life's moments beautifully</p>
+                        </div>
+                        <div class="topic-card">
+                            <i class="fas fa-heart"></i>
+                            <h3>Healthy Living</h3>
+                            <p>Wellness tips for a better lifestyle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <h2>Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="profile1.png" alt="Joseph Nzau">
+                    <h3>Joseph Nzau</h3>
+                    <p>Web Development Editor</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Wanjiku Njeri">
+                    <h3>Wanjiku Njeri</h3>
+                    <p>Creative Writing Editor</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Odhiambo Otieno">
+                    <h3>Odhiambo Otieno</h3>
+                    <p>Photography Editor</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Akinyi Adhiambo">
+                    <h3>Akinyi Adhiambo</h3>
+                    <p>Health & Wellness Editor</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 The Creative Stack. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 

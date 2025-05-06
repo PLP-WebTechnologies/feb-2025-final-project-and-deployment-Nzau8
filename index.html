@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Creative Stack - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">The Creative Stack</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="search-container">
+                <form action="/search" method="get">
+                    <input type="text" placeholder="Search..." name="search" aria-label="Search" />
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Welcome to The Creative Stack</h1>
+            <p class="subtitle">Exploring ideas, sharing knowledge, and connecting with readers.</p>
+        </section>
+
+        <section class="featured-posts">
+            <h2>Featured Posts</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <h3>Getting Started with Web Development</h3>
+                    <p class="post-meta">Posted on March 1, 2024</p>
+                    <p class="post-excerpt">Learn the fundamentals of web development and start your journey as a developer...</p>
+                    <a href="blog.html" class="btn">Read More</a>
+                </article>
+
+                <article class="post-card">
+                    <h3>The Art of Creative Writing</h3>
+                    <p class="post-meta">Posted on February 28, 2024</p>
+                    <p class="post-excerpt">Discover techniques and tips to improve your creative writing skills...</p>
+                    <a href="blog.html" class="btn">Read More</a>
+                </article>
+
+                <article class="post-card">
+                    <h3>Photography Basics</h3>
+                    <p class="post-meta">Posted on February 25, 2024</p>
+                    <p class="post-excerpt">Master the basics of photography and start capturing beautiful moments...</p>
+                    <a href="blog.html" class="btn">Read More</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 The Creative Stack. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
