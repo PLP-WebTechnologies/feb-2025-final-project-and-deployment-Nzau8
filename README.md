@@ -4,7 +4,8 @@ A fully responsive blog website built with HTML, CSS, and JavaScript, showcasing
 
 ## 🌐 Live Demo
 
-Visit the website: [The Creative Stack]
+Visit the website:
+https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Nzau8/
 
 ## ✨ Features
 
@@ -33,15 +34,12 @@ Visit the website: [The Creative Stack]
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
-
-
+1. Clone the repository.
 2. Open `index.html` in your browser to view the website locally.
 
 ## 📤 Deployment
 
 This website is deployed using GitHub Pages. Here's how it was done:
-
 1. Repository Setup:
    - Code pushed to GitHub repository
    - Repository made public
@@ -66,6 +64,4 @@ Feel free to submit issues and enhancement requests!
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
----
 
